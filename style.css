@@ -1,0 +1,48 @@
+body {
+    background-color: gray;
+}
+
+button{
+    
+    border-radius: 100px;;
+    
+}
+button:hover{
+    transform:scale(2)
+}
+
+.header {
+    display: flex;
+    background-color: chartreuse;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    width: 24px;
+    height: 24px;
+    background-color: blueviolet;
+}
+
+#colors {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}

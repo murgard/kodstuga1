@@ -6,9 +6,6 @@ let previousColor = "black";
 
 let mouseIsDown = false;
 
-
-
-
 window.onload = () => {
     document.body.onmousedown = () => {
         mouseIsDown = true;
@@ -18,7 +15,7 @@ window.onload = () => {
     }
     const button = document.getElementById("knapp");
     button.onclick = () => {
-        window.alert("börja rita!!!");
+        window.alert("1. Du måste börja rita");
     };
 
     const colors = document.getElementById("colors");

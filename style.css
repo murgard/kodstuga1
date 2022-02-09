@@ -1,8 +1,10 @@
 body {
     background-color: gray;
+    text-align: center;
+    
 }
 
-button{
+#button{
     
     border-radius: 100px;;
     
@@ -16,13 +18,7 @@ button:hover{
     background-color: chartreuse;
 }
 
-.vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
+
 
 .canvas {
     display: flex;
@@ -45,4 +41,7 @@ button:hover{
     flex-direction: row;
     margin-top: 16px;
     margin-bottom: 16px;
+    margin-left: 30%;
+    margin-right: 30%;
+
 }
